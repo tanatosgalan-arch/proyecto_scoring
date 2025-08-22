@@ -1,0 +1,40 @@
+# ==== Python ====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ==== Entornos virtuales ====
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# ==== Archivos de configuración local ====
+.env
+*.local
+
+# ==== Compilados y cache ====
+*.log
+*.pot
+*.mo
+*.pyc
+*.pyo
+*.pyd
+.cache/
+build/
+dist/
+
+# ==== OS files ====
+.DS_Store
+Thumbs.db
+
+# ==== Archivos con posibles secretos ====
+*secret*
+*Secret*
+*SECRET*
+*password*
+*Password*
+*PASSWORD*
